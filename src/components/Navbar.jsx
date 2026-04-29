@@ -49,7 +49,7 @@ export default function Navbar() {
               Kantipur Premium
             </div>
             <div style={{ fontSize: '10px', color: '#FFD700', letterSpacing: '2px', textTransform: 'uppercase' }}>
-              Hubf
+              Hub
             </div>
           </div>
         </a>
