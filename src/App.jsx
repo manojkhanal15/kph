@@ -53,7 +53,10 @@ export default function App() {
         }}
         title="Chat on WhatsApp"
       >
-        <span role="img" aria-label="whatsapp">💬</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+     alt="WhatsApp"
+     width="24"
+     height="24"></img>
       </a>
 
       {/* Scroll to Top */}
