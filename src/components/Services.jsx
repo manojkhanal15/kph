@@ -17,9 +17,10 @@ function LogoBox({ item }) {
         alignItems: 'center',
         justifyContent: 'center',
         marginBottom: '18px',
-        padding: '10px',
+        padding: '0px',
         boxSizing: 'border-box',
         flexShrink: 0,
+        overflow: 'hidden',
         boxShadow: `0 4px 20px ${item.bg}55`,
       }}
     >
