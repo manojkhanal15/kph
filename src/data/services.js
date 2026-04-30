@@ -5,7 +5,7 @@ export const ottServices = [
     type: 'OTT Streaming',
     price: 319,
     bg: '#E50914',
-    logo: 'https://cdn.worldvectorlogo.com/logos/netflix-4.svg',
+    logo: '/logos/netflix.png',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const ottServices = [
     type: 'OTT Streaming',
     price: 149,
     bg: '#00A8E0',
-    logo: 'https://cdn.worldvectorlogo.com/logos/amazon-prime-video.svg',
+    logo: '/logos/prime.png',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const ottServices = [
     type: 'OTT Streaming',
     price: 399,
     bg: '#ffffff',
-    logo: 'https://cdn.worldvectorlogo.com/logos/sonyliv.svg',
+    logo: '/logos/sony.png',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const ottServices = [
     type: 'Video + Music',
     price: 299,
     bg: '#FF0000',
-    logo: 'https://cdn.worldvectorlogo.com/logos/youtube-icon.svg',
+    logo: '/logos/youtube.png',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const ottServices = [
     type: 'Anime Streaming',
     price: 299,
     bg: '#F47521',
-    logo: 'https://cdn.worldvectorlogo.com/logos/crunchyroll.svg',
+    logo: '/logos/crunchyroll.png',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const ottServices = [
     type: 'OTT Streaming',
     price: 349,
     bg: '#000000',
-    logo: 'https://cdn.worldvectorlogo.com/logos/hbo-max-1.svg',
+    logo: '/logos/hbomax.png',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const ottServices = [
     type: 'OTT Streaming',
     price: 299,
     bg: '#c8102e',
-    logo: 'https://play-lh.googleusercontent.com/Y_-yHXMTmMvHn8lGHsBSxRQsQXQifBj2SkFT8jxMqLMhhFSxP9sQZFg2aNFG_bWzNA=w240-h480-rw',
+    logo: '/logos/ullu.png',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const ottServices = [
     type: 'OTT Streaming',
     price: 399,
     bg: '#1CE783',
-    logo: 'https://cdn.worldvectorlogo.com/logos/hulu-2.svg',
+    logo: '/logos/hulu.png',
   },
 ];
 
@@ -86,9 +86,9 @@ export const aiTools = [
     id: 2,
     name: 'Canva Pro',
     type: 'Design Tool',
-    price: 199,
+    price: 99,
     bg: '#7D2AE7',
-    logo: 'https://cdn.worldvectorlogo.com/logos/canva-1.svg',
+    logo: '/logos/canva.png',
   },
   {
     id: 3,
@@ -96,7 +96,7 @@ export const aiTools = [
     type: 'Video Editor',
     price: 499,
     bg: '#000000',
-    logo: 'https://cdn.worldvectorlogo.com/logos/capcut-app-logo.svg',
+    logo: '/logos/capcut.png',
   },
 ];
 
@@ -105,9 +105,9 @@ export const softwareList = [
     id: 1,
     name: 'MS Office 365',
     type: 'Productivity Suite',
-    price: 2799,
+    price: 299,
     bg: '#D83B01',
-    logo: 'https://cdn.worldvectorlogo.com/logos/microsoft-office-2013.svg',
+    logo: '/logos/ms.png',
   },
   {
     id: 2,
@@ -115,15 +115,15 @@ export const softwareList = [
     type: 'Security & Privacy',
     price: 299,
     bg: '#4687FF',
-    logo: 'https://cdn.worldvectorlogo.com/logos/nordvpn-1.svg',
+    logo: '/logos/nord.png',
   },
   {
     id: 3,
-    name: 'Google Workspace',
-    type: 'Productivity Suite',
-    price: 349,
+    name: 'Surfshark VPN  ',
+    type: 'Security & Privacy',
+    price: 299,
     bg: '#4285F4',
-    logo: 'https://cdn.worldvectorlogo.com/logos/google-workspace-1.svg',
+    logo: '/logos/surfshark.png',
   },
 ];
 
@@ -142,7 +142,7 @@ export const socialServices = [
     type: 'Likes Package',
     price: 99,
     bg: '#1877F2',
-    logo: 'https://cdn.worldvectorlogo.com/logos/facebook-3.svg',
+    logo: '/logos/fb.png',
   },
   {
     id: 3,
@@ -150,7 +150,7 @@ export const socialServices = [
     type: 'Views Boost',
     price: 149,
     bg: '#FF0000',
-    logo: 'https://cdn.worldvectorlogo.com/logos/youtube-icon.svg',
+    logo: '/logos/youtube.png',
   },
   {
     id: 4,
@@ -158,7 +158,7 @@ export const socialServices = [
     type: 'Channel Growth',
     price: 299,
     bg: '#FF0000',
-    logo: 'https://cdn.worldvectorlogo.com/logos/youtube-icon.svg',
+    logo: '/logos/youtube.png',
   },
   {
     id: 5,
