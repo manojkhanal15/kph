@@ -5,16 +5,17 @@ const floatingItems = [
     name: 'Netflix',
     cat: 'Streaming',
     bg: '#E50914',
-    logo: 'https://cdn.worldvectorlogo.com/logos/netflix-4.svg',
+    logo: '/logos/netflix.png',
     logoFilter: 'brightness(0) invert(1)',
   },
   {
     name: 'Prime Video',
     cat: 'Streaming',
     bg: '#00A8E0',
-    logo: 'https://cdn.worldvectorlogo.com/logos/amazon-prime-video.svg',
+    logo: '/logos/prime.png',
     logoFilter: 'brightness(0) invert(1)',
   },
+  /*
   {
     name: 'Spotify',
     cat: 'Music',
@@ -22,6 +23,7 @@ const floatingItems = [
     logo: 'https://cdn.worldvectorlogo.com/logos/spotify-2.svg',
     logoFilter: 'brightness(0) invert(1)',
   },
+  */
   {
     name: 'ChatGPT Plus',
     cat: 'AI Tool',
@@ -33,9 +35,16 @@ const floatingItems = [
     name: 'Canva Pro',
     cat: 'Design',
     bg: '#7D2AE7',
-    logo: 'https://cdn.worldvectorlogo.com/logos/canva-1.svg',
+    logo: '/logos/canva.png',
     logoFilter: 'brightness(0) invert(1)',
   },
+  {
+    name:'Capcut Pro',
+    cat:'Video Editing',
+    bg:'#FF5C83',
+    logo:'/logos/capcut.png',
+    logoFilter:'brightness(0) invert(1)',
+  }
 ];
 
 export default function Hero() {
@@ -124,7 +133,7 @@ export default function Hero() {
           maxWidth: '540px',
         }}>
           Your Gateway to Premium Entertainment, AI Tools &amp; Digital Growth
-          — serving Nepal since 2020.
+          — serving Nepal since 2022.
         </p>
 
         <div className="animate-fadeUp delay-300" style={{
@@ -221,33 +230,33 @@ export default function Hero() {
             }}
           >
             {/* Logo box — white background so logos are clearly visible */}
-            <div style={{
-              width: '44px',
-              height: '44px',
-              borderRadius: '12px',
-              background: '#ffffff',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '7px',
-              flexShrink: 0,
-              boxShadow: `0 4px 14px ${item.bg}66`,
-            }}>
-              <img
-                src={item.logo}
-                alt={item.name}
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'contain',
-                  display: 'block',
-                }}
-                onError={e => {
-                  e.currentTarget.parentNode.style.background = item.bg;
-                  e.currentTarget.style.display = 'none';
-                }}
-              />
-            </div>
+           <div style={{
+  width: '48px',
+  height: '48px',
+  borderRadius: '12px',
+  background: item.bg,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  padding: '0',
+  flexShrink: 0,
+  overflow: 'hidden',
+  boxShadow: `0 4px 14px ${item.bg}66`,
+}}>
+  <img
+    src={item.logo}
+    alt={item.name}
+    style={{
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+      display: 'block',
+    }}
+    onError={e => {
+      e.currentTarget.style.display = 'none';
+    }}
+  />
+</div>
 
             <div style={{ minWidth: 0 }}>
               <div style={{

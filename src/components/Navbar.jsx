@@ -42,7 +42,6 @@ export default function Navbar() {
         justifyContent: 'space-between',
         height: '70px',
       }}>
-
         {/* Logo */}
         <a href="#home" style={{
           display: 'flex',
@@ -51,21 +50,20 @@ export default function Navbar() {
           textDecoration: 'none',
         }}>
           <div style={{
-            width: '42px',
-            height: '42px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
+            width: '48px', height: '48px',
             borderRadius: '10px',
-            background: 'rgba(255,215,0,0.08)',
+            background: '#000000',
             border: '1px solid rgba(255,215,0,0.2)',
-            padding: '3px',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            padding: '0px',
+            overflow: 'hidden',
           }}>
             <img
               src="/logo.png"
               alt="Kantipur Premium Hub"
-              style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
+
           </div>
 
           <div>
