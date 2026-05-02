@@ -103,7 +103,7 @@ function ServiceCard({ item, btnLabel }) {
         <strong style={{ fontSize: '22px', fontWeight: 800, color: '#FFD700' }}>
           {'Rs. ' + item.price}
         </strong>
-        <span style={{ fontSize: '12px' }}>{'/mo'}</span>
+        <span style={{ fontSize: '12px' }}>{item.unit??'/mo'}</span>
       </div>
 
       <a
