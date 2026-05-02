@@ -217,7 +217,7 @@ export const faqs = [
   },
   {
     q: 'What payment methods are accepted?',
-    a: 'We accept eSewa, Khalti, IME Pay, bank transfer, and direct cash. Contact us on WhatsApp for details.',
+    a: 'We accept eSewa, Khalti, IME Pay, and bank transfer. Contact us on WhatsApp for details.',
   },
   {
     q: 'Do you offer refunds?',
@@ -225,6 +225,6 @@ export const faqs = [
   },
   {
     q: 'Can I use services on multiple devices?',
-    a: 'Depends on the plan. Netflix supports up to 4 screens. Contact us for plan-specific details.',
+    a: 'Depends on the plan. Different plans have different device limits. Contact us for plan-specific details.',
   },
 ];
